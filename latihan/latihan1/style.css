@@ -21,7 +21,7 @@ a {
 }
 
 a:hover {
-  background-color: salmon;
-  color: blueviolet;
+  background-color: aqua;
+  color: purple;
   border-radius: 5px;
 }
