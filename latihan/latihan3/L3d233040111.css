@@ -29,12 +29,13 @@ h3 {
 }
 
 .a2 {
-  color: white;
+  color: blue;
   font-weight: bold;
 }
 
 .a2:hover {
   background-color: blue;
+  color: white;
 }
 
 .pertama {
