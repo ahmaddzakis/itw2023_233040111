@@ -132,7 +132,7 @@ table {
 body {
   font: 16px/28px arial, sans-serif;
   background-color: #eaeaea;
-  background-image: url(img/fancy-cushion.webp);
+  background-image: url(img/denim.webp);
   color: #333333;
   min-height: 2000px;
 }
@@ -190,6 +190,12 @@ body {
 .content h2 {
   font-size: 20px;
   font-weight: bold;
+}
+
+.content img {
+  border-radius: 50px;
+  border: 2px solid black;
+  float: right;
 }
 
 .content .penulis {
