@@ -213,6 +213,11 @@ body {
   font-size: 14px;
   text-align: justify;
 }
+.content p.write {
+  background-color: burlywood;
+  padding: 10px;
+  border-radius: 10px;
+}
 
 .footer {
   background-color: #333333;
