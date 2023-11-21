@@ -65,7 +65,7 @@ nav ul li a:hover {
   display: block;
   width: 28px;
   height: 3px;
-  background-color: rgb(242, 160, 242);
+  background-color: rgb(71, 62, 62);
   border-radius: 3px;
   transition: all 0.5s;
 }
@@ -116,7 +116,7 @@ nav ul li a:hover {
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(128, 0, 128);
+    background-color: rgb(127, 127, 127);
     z-index: -1;
     transform: translateX(100%);
     transition: all 1s;
