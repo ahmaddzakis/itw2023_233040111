@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jujutsu Kaisen Nendoroid!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="hero">
+          <h2 class="heading">JJK Nendoroid!</h2>
+          <p class="sub-heading">Enjoy Your Toys!</p>
+        </div>
+        <div class="features feature-1">
+          <h4 class="price">IDR 500K</h4>
+          <p class="item">Ryomen Sukuna</p>
+        </div>
+        <div class="features feature-2">
+          <h4 class="price">IDR 475K</h4>
+          <p class="item">Suguru Geto</p>
+        </div>
+      </header>
+
+      <nav class="menu">
+        <div class="menu-toggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="brand">
+          <h1>JJK Nendoroid!</h1>
+        </div>
+        <ul class="menu-list">
+          <li><a href="">Home</a></li>
+          <li><a href="">Products</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Gallery</a></li>
+        </ul>
+      </nav>
+      <section class="services">
+        <div class="service">
+          <div class="icon">🛍️</div>
+          <h3>Online Shop</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi accusantium laudantium doloremque vero adipisci rerum?</p>
+        </div>
+        <div class="service">
+          <div class="icon">📍</div>
+          <h3>Location Shop</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi accusantium laudantium doloremque vero adipisci rerum?</p>
+        </div>
+        <div class="service">
+          <div class="icon">🎙️</div>
+          <h3>Podcast</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi accusantium laudantium doloremque vero adipisci rerum?</p>
+        </div>
+        <div class="service">
+          <div class="icon">👕</div>
+          <h3>Merch</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi accusantium laudantium doloremque vero adipisci rerum?</p>
+        </div>
+      </section>
+      <section class="gallery">
+        <h2>Gallery</h2>
+        <img src="https://source.unsplash.com/random/200x200" alt="" />
+        <img src="https://source.unsplash.com/random/201x201" alt="" />
+        <img src="https://source.unsplash.com/random/202x202" alt="" />
+        <img src="https://source.unsplash.com/random/203x203" alt="" />
+        <img src="https://source.unsplash.com/random/204x204" alt="" />
+        <img src="https://source.unsplash.com/random/205x205" alt="" />
+        <img src="https://source.unsplash.com/random/206x206" alt="" />
+        <img src="https://source.unsplash.com/random/207x207" alt="" />
+        <img src="https://source.unsplash.com/random/208x208" alt="" />
+        <img src="https://source.unsplash.com/random/209x209" alt="" />
+      </section>
+    </div>
+    <script>
+      const menuToggle = document.querySelector('.menu-toggle input');
+      const nav = document.querySelector('nav ul');
+
+      menuToggle.addEventListener('click', function () {
+        nav.classList.toggle('slide');
+      });
+    </script>
+  </body>
+</html>
